@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+.foot {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.header {
+    text-align: center;
+}
+
+.m {
+    margin-left: 200px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b {
+    position: fixed;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.c {
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #24262b;
+}
+
+.footer-col {
+    width: 30%;
+    padding: 0 30px
+}
+
+.nav {
+    line-height: 50px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+
+.footer-col h4 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 300;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    height: 0px;
+    box-sizing: border-box;
+    width: 40px;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    background-color: rgba(225, 225, 225, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-col ol li:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.footer-col ol li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(99, 97, 97);
+    text-decoration: none;
+    display: block;
+    font-weight: 100;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    color: aliceblue;
+}
+
+.foot {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol {
+    margin-bottom: 30px;
+}
+
+div {
+    margin-left: 0px;
+    display: grid;
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: space-around
+}
+
+span {
+    text-decoration: line-through;
+}
+
+.product-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+article {
+    font-style: italic;
+}
+
+.off {
+    margin: 0px;
+    display: block;
+    color: white;
+    background-color: red;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
